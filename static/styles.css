@@ -310,6 +310,11 @@ footer .footer-primary .footer-contacto {
     flex: 2;
     margin: 32px auto auto 0;
 }
+footer .footer-primary .footer-contacto .contacto-info p {
+    font-size: var(--text-font-size);
+    color: var(--corp-clr-terciary);
+    font-weight: 600;
+}
 footer .footer-primary a button {
     background-color: #fbcd60;
     height: 48px;
