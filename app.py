@@ -43,7 +43,7 @@ def homeCat():
     return render_template ("home-cat.html") """
 
 # PSICONUTRICION
-@app.route("/es/psiconutricion")
+@app.route("es/psiconutricion")
 def psiconutricion():
     return render_template("psiconutricion-esp.html")
 
