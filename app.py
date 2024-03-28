@@ -30,7 +30,7 @@ HEADERiTEMS = [
     "Psicologia"
 ]
 # Definir la variable global base_uri
-base_uri = "mesmillor/es"
+base_uri = "es"
 
 @app.route('/')
 def home():
