@@ -39,7 +39,7 @@ def home():
 @app.route('/<string:base_uri>')
 # def index(base_uri=None):
 def index(base_uri):
-    if base_uri == 'es':
+    if base_uri == 'mesmillor/es':
         return render_template("home-esp.html")
     elif base_uri == 'ca':
         return render_template('home-cat.html')
