@@ -32,7 +32,7 @@ HEADERiTEMS = [
 # Definir la variable global base_uri
 base_uri = "mesmillor/es"
 
-@app.route('/')
+@app.route('/mesmillor')
 def home():
     return redirect("/es")
 
