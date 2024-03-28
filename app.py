@@ -30,16 +30,16 @@ HEADERiTEMS = [
     "Psicologia"
 ]
 # Definir la variable global base_uri
-base_uri = "mesmillor/es"
+base_uri = "es"
 
-@app.route('/mesmillor')
+@app.route('/')
 def home():
     return redirect("/es")
 
 @app.route('/<string:base_uri>')
 # def index(base_uri=None):
 def index(base_uri):
-    if base_uri == 'mesmillor/es':
+    if base_uri == 'es':
         return render_template("home-esp.html")
     elif base_uri == 'ca':
         return render_template('home-cat.html')
