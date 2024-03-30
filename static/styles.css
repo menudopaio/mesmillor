@@ -404,7 +404,7 @@ footer .footer-primary a button:hover {
         border-radius: 0;
     }
 }
-@media screen and (max-width: 676px) and (min-width: 400px) {
+@media screen and (max-width: 676px) {
     header nav .desktop {
         display: flex;
         gap: 30px;
