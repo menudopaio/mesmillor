@@ -118,7 +118,7 @@ header nav {
     background-color: var(--header-background-color);
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     align-items: baseline;
     justify-content: center;
